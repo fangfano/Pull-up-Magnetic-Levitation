@@ -14,10 +14,11 @@ https://github.com/user-attachments/assets/98f3b621-be2c-473f-b661-d730cdc24fd0
 
 这里分享我的代码、磁悬浮装置制作材料清单、制作经验等，希望可以帮助到大家快速制作一个。
 
-材料清单见：
-Hall Sensor(Verified)/Materials list.xlsx
+## 材料清单见：
 
-Infrared Sensor/Materials list.xlsx
+霍尔传感器方案：Hall Sensor(Verified)/Materials list.xlsx
+
+红外传感器方案：Infrared Sensor/Materials list.xlsx
 
 ## 基本原理
 
@@ -32,12 +33,12 @@ Infrared Sensor/Materials list.xlsx
 
 ## 方案一：霍尔传感器方案（已验证可行）
 
-<img width="959" height="676" alt="Snipaste_2025-08-13_13-11-54" src="https://github.com/user-attachments/assets/4854adeb-6c4f-4382-b2f4-7c9be46ca472" />
+<img width="480" height="338" alt="Snipaste_2025-08-13_13-11-54" src="https://github.com/user-attachments/assets/4854adeb-6c4f-4382-b2f4-7c9be46ca472" />
 
 ### 重点物料说明：
 
 #### 1. Arduino Uno
-<img width="1500" height="1500" alt="image" src="https://github.com/user-attachments/assets/16e8553b-64b4-43af-8ff5-58be4161c2f4" />
+<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/16e8553b-64b4-43af-8ff5-58be4161c2f4" />
 
 
 #### 2. 线圈
@@ -59,11 +60,12 @@ Infrared Sensor/Materials list.xlsx
 `SR5100`，非常重要，一定要有，否则容易导致元件烧毁。
 
 ### 电路原理图
-<img width="1096" height="793" alt="Principle" src="https://github.com/user-attachments/assets/b2291978-13d6-4bc2-8428-0fbc1ec399ef" />
+<img width="548" height="397" alt="Principle" src="https://github.com/user-attachments/assets/b2291978-13d6-4bc2-8428-0fbc1ec399ef" />
 
 
 ### 软件环境
 单片机: arduino UNO
+
 开发环境: Arduino
 
 
@@ -73,12 +75,16 @@ Infrared Sensor/Materials list.xlsx
 
 注意：该方案磁铁片在悬浮的过程中容易左右抖动，可能导致反射光强抖动，并引发pid抖动，形成正反馈，最终导致崩溃掉落，可能是未验证成功的原因之一。
 
-演示图片
+![demo2](https://github.com/user-attachments/assets/2d1d7b84-eb84-42ab-a5a2-af76e7b98e07)
+
+https://github.com/user-attachments/assets/2d70b275-bb18-49ee-bdcb-ad9cc3a21a82
+
 
 ### 重点物料说明：
 
 #### 1. STM32F103C8T6最小系统
-图片
+<img width="151" height="103" alt="image" src="https://github.com/user-attachments/assets/1dfde959-1c1e-4c99-b4fd-a649c38be6cb" />
+
 
 #### 2. 线圈
 `0.5mm 50m线圈`，直接淘宝购买整卷的即可，整体电阻约为5Ω，电流最好不要超过4A。
@@ -106,6 +112,7 @@ Infrared Sensor/Materials list.xlsx
 
 ### 软件环境
 单片机:STM32f103c8t6
+
 开发环境:STM32CubeIDE
 
 ## 算法调试部分
