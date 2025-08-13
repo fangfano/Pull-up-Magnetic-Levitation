@@ -1,7 +1,8 @@
 ## Pull-up Magnetic Levitation 上拉式磁悬浮
 
-演示视频
+<img width="959" height="676" alt="Snipaste_2025-08-13_13-11-54" src="https://github.com/user-attachments/assets/4854adeb-6c4f-4382-b2f4-7c9be46ca472" />
 
+https://github.com/user-attachments/assets/98f3b621-be2c-473f-b661-d730cdc24fd0
 
 ## 介绍
 
@@ -15,7 +16,14 @@
 
 这里分享我的代码、磁悬浮装置制作材料清单、制作经验等，希望可以帮助到大家快速制作一个。
 
+材料清单见：
+Hall Sensor(Verified)/Materials list.xlsx
+Infrared Sensor/Materials list.xlsx
+
 ## 基本原理
+
+<img width="340" height="294" alt="yuanlitu" src="https://github.com/user-attachments/assets/675ffbab-2eb2-4cd2-a70a-ff97e0d4431d" />
+
 
 上图展示了上拉式磁悬浮的基本原理。上面的电磁铁提供吸引力来抵消磁铁片浮子的重力。
 
@@ -25,12 +33,13 @@
 
 ## 方案一：霍尔传感器方案（已验证可行）
 
-演示图片
+<img width="959" height="676" alt="Snipaste_2025-08-13_13-11-54" src="https://github.com/user-attachments/assets/4854adeb-6c4f-4382-b2f4-7c9be46ca472" />
 
 ### 重点物料说明：
 
 #### 1. Arduino Uno
-图片
+<img width="1500" height="1500" alt="image" src="https://github.com/user-attachments/assets/16e8553b-64b4-43af-8ff5-58be4161c2f4" />
+
 
 #### 2. 线圈
 `0.5mm 50m线圈`，直接淘宝购买整卷的即可，整体电阻约为5Ω，电流最好不要超过4A。
@@ -51,8 +60,8 @@
 `SR5100`，非常重要，一定要有，否则容易导致元件烧毁。
 
 ### 电路原理图
+<img width="1096" height="793" alt="Principle" src="https://github.com/user-attachments/assets/b2291978-13d6-4bc2-8428-0fbc1ec399ef" />
 
-<img src="https://github.com/xiaochutan123l/MagLev-Project/blob/main/images/Schematic_MagLev2.png" width="610" height="470" />
 
 ### 软件环境
 单片机: arduino UNO
@@ -92,16 +101,13 @@
 `三端稳压管LM7805`，主要是为了将12V电源，降压为5V，为最小系统供电。对于12V电源，可以直接购买可调电源，应该也可以采用快充诱骗。
 
 ### 电路原理图
+<img width="1261" height="780" alt="Principle" src="https://github.com/user-attachments/assets/24320732-ffcc-4522-82ff-e7818a3d1490" />
 
 
 
 ### 软件环境
 单片机:STM32f103c8t6
 开发环境:STM32CubeIDE
-
-
-
-
 
 ## 算法调试部分
 
