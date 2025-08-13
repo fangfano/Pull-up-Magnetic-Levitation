@@ -1,0 +1,4 @@
+mystring.c:13:6:uitoa	24	static
+mystring.c:36:6:myitoa	0	static
+mystring.c:47:6:ftoa	40	static
+mystring.c:96:9:ftoa_c	24	static
