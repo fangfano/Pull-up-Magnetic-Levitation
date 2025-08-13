@@ -1,7 +1,5 @@
 ## Pull-up Magnetic Levitation 上拉式磁悬浮
 
-<img width="959" height="676" alt="Snipaste_2025-08-13_13-11-54" src="https://github.com/user-attachments/assets/4854adeb-6c4f-4382-b2f4-7c9be46ca472" />
-
 https://github.com/user-attachments/assets/98f3b621-be2c-473f-b661-d730cdc24fd0
 
 ## 介绍
@@ -18,6 +16,7 @@ https://github.com/user-attachments/assets/98f3b621-be2c-473f-b661-d730cdc24fd0
 
 材料清单见：
 Hall Sensor(Verified)/Materials list.xlsx
+
 Infrared Sensor/Materials list.xlsx
 
 ## 基本原理
